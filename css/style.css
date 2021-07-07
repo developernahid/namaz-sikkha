@@ -18,3 +18,28 @@
     background-color: black;
     color: white;
 }
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .card-title{
+        font-size: 18px;
+        color: blue;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+ 
+    
+  }
